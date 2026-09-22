@@ -1,0 +1,39 @@
+{
+  "name": "kasane-teto-theme",
+  "displayName": "Kasane Teto Theme",
+  "description": "An unofficial dark VS Code theme inspired by Kasane Teto.",
+  "version": "0.1.0",
+  "publisher": "InNUenD00",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/InNUenD00/Kasane-Teto-Theme-for-VSC.git"
+  },
+  "bugs": {
+    "url": "https://github.com/InNUenD00/Kasane-Teto-Theme-for-VSC/issues"
+  },
+  "homepage": "https://github.com/InNUenD00/Kasane-Teto-Theme-for-VSC#readme",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "kasane teto",
+    "teto",
+    "utau",
+    "synthesizer v"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Kasane Teto",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kasane-teto-color-theme.json"
+      }
+    ]
+  }
+}
