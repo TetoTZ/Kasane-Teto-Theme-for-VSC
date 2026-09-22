@@ -3,204 +3,186 @@
   "name": "Kasane Teto",
   "type": "dark",
   "semanticHighlighting": true,
-
+  
   "colors": {
-    "focusBorder": "#B97883", // Borde visible del foco cuando el usuario navega por la UI
+    // =========================
+    // UI base / chrome
+    // =========================
+    "focusBorder": "#B97883", // Borde visible del foco cuando el usuario navega por la interfaz.
 
-    "foreground": "#D8E1EE", // Texto principal de UI y editor
-    "descriptionForeground": "#97A6BA", // Texto secundario de descripciones y ayudas
-    "disabledForeground": "#6F7D90", // Texto deshabilitado y no interactivo
-    "errorForeground": "#CF7F88", // Color de mensajes de error y texto crítico
+    "foreground": "#D8E1EE", // Texto principal de la UI y del editor.
+    "descriptionForeground": "#97A6BA", // Texto secundario de descripciones, ayudas y metadatos.
+    "disabledForeground": "#6F7D90", // Texto deshabilitado o no interactivo.
+    "errorForeground": "#CF7F88", // Texto de error y mensajes de estado crítico.
+    "icon.foreground": "#AEBAC9", // Color base de iconos de la interfaz.
+    "selection.background": "#31435C88", // Fondo de selección general en editor y listas.
 
-    "icon.foreground": "#AEBAC9", // Color base de iconos de la interfaz
+    "window.activeBorder": "#2E3B4F", // Borde de la ventana activa.
+    "window.inactiveBorder": "#243042", // Borde de la ventana inactiva.
 
-    "selection.background": "#31435C88", // Fondo de texto seleccionado en editor y listas
+    "titleBar.activeBackground": "#131A24", // Fondo de la barra de título del editor activo.
+    "titleBar.activeForeground": "#D8E1EE", // Texto de la barra de título activa.
+    "titleBar.inactiveBackground": "#131A24", // Fondo de la barra de título inactiva.
+    "titleBar.inactiveForeground": "#7F8CA0", // Texto de la barra de título inactiva.
+    "titleBar.border": "#243042", // Línea divisoria de la barra de título.
 
-    "window.activeBorder": "#2E3B4F", // Borde de la ventana activa
-    "window.inactiveBorder": "#243042", // Borde de la ventana inactiva
+    "activityBar.background": "#131A24", // Fondo de la barra lateral de actividades.
+    "activityBar.foreground": "#D8E1EE", // Iconos activos de la barra lateral.
+    "activityBar.inactiveForeground": "#728197", // Iconos inactivos de la barra lateral.
+    "activityBar.border": "#243042", // Borde de la barra lateral.
+    "activityBar.activeBorder": "#B97883", // Borde del icono activo en la barra lateral.
+    "activityBar.activeBackground": "#1B2432", // Fondo del icono activo en la barra lateral.
+    "activityBarBadge.background": "#B97883", // Fondo del badge del icono activo.
+    "activityBarBadge.foreground": "#FFFFFF", // Texto del badge activo.
 
-    "titleBar.activeBackground": "#131A24", // Fondo de la barra de título del editor activo
-    "titleBar.activeForeground": "#D8E1EE", // Texto de la barra de título activa
-    "titleBar.inactiveBackground": "#131A24", // Fondo de la barra de título inactiva
-    "titleBar.inactiveForeground": "#7F8CA0", // Texto de la barra de título inactiva
-    "titleBar.border": "#243042", // Línea divisoria de la barra de título
+    "sideBar.background": "#161E2A", // Fondo del explorador de archivos y paneles laterales.
+    "sideBar.foreground": "#C5D0DF", // Texto principal de la barra lateral.
+    "sideBar.border": "#243042", // Borde de la barra lateral.
+    "sideBarTitle.foreground": "#E4D6C9", // Título principal del panel lateral.
+    "sideBarSectionHeader.background": "#1E2837", // Fondo de encabezados de sección del explorador.
+    "sideBarSectionHeader.foreground": "#D8E1EE", // Texto de encabezados de sección del explorador.
+    "sideBarSectionHeader.border": "#243042", // Borde de cabeceras de sección lateral.
 
-    "activityBar.background": "#131A24", // Fondo de la barra lateral de actividades
-    "activityBar.foreground": "#D8E1EE", // Iconos activos de la barra lateral
-    "activityBar.inactiveForeground": "#728197", // Iconos inactivos de la barra lateral
-    "activityBar.border": "#243042", // Borde de la barra lateral
-    "activityBar.activeBorder": "#B97883", // Borde del icono de actividad activo
-    "activityBar.activeBackground": "#1B2432", // Fondo del icono de actividad seleccionado
+    "editorGroupHeader.tabsBackground": "#131A24", // Fondo de la fila de pestañas del editor.
+    "editorGroupHeader.tabsBorder": "#243042", // Línea inferior de la fila de pestañas.
+    "editorGroup.border": "#243042", // Borde entre grupos de editor.
 
-    "activityBarBadge.background": "#B97883", // Fondo del badge del icono activo
-    "activityBarBadge.foreground": "#FFFFFF", // Texto del badge activo
+    "tab.activeBackground": "#1A2230", // Fondo de la pestaña abierta actual.
+    "tab.activeForeground": "#E4D6C9", // Texto de la pestaña activa.
+    "tab.activeBorderTop": "#B97883", // Línea superior de la pestaña activa.
+    "tab.inactiveBackground": "#131A24", // Fondo de pestañas inactivas.
+    "tab.inactiveForeground": "#8593A7", // Texto de pestañas inactivas.
+    "tab.hoverBackground": "#202B3A", // Fondo al pasar el mouse por una pestaña.
+    "tab.hoverForeground": "#D8E1EE", // Texto de pestaña al hacer hover.
 
-    "sideBar.background": "#161E2A", // Fondo del explorador de archivos y vistas laterales
-    "sideBar.foreground": "#C5D0DF", // Texto principal de la vista lateral
-    "sideBar.border": "#243042", // Borde de la vista lateral
+    // =========================
+    // Editor / code surface
+    // =========================
+    "editor.background": "#1A2230", // Fondo principal del editor.
+    "editor.foreground": "#D8E1EE", // Color base del texto del editor.
+    "editorLineNumber.foreground": "#5D6A7C", // Número de línea no activo.
+    "editorLineNumber.activeForeground": "#AFC0D6", // Número de línea de la línea actual.
+    "editorCursor.foreground": "#E4D6C9", // Cursor del editor.
+    "editor.selectionBackground": "#31435C99", // Fondo de texto seleccionado dentro del editor.
+    "editor.inactiveSelectionBackground": "#31435C55", // Fondo de selección cuando el editor está inactivo.
+    "editor.wordHighlightBackground": "#8EA4BF22", // Fondo de palabras coincidentes en el editor.
+    "editor.wordHighlightStrongBackground": "#8EA4BF33", // Fondo de coincidencias fuertes de palabras.
+    "editor.findMatchBackground": "#B9788355", // Fondo de la coincidencia actual en búsqueda.
+    "editor.findMatchBorder": "#C98A95", // Borde de la coincidencia actual.
+    "editor.findMatchHighlightBackground": "#B9788328", // Fondo de otras coincidencias en la búsqueda.
+    "editor.lineHighlightBackground": "#202937", // Fondo de la línea actual del editor.
+    "editor.lineHighlightBorder": "#00000000", // Borde de línea actual sin visibilidad.
+    "editorIndentGuide.background1": "#2B3749", // Guía de indentación normal.
+    "editorIndentGuide.activeBackground1": "#51627C", // Guía de indentación de la línea actual.
+    "editorWhitespace.foreground": "#334154", // Color de espacios y tabulaciones visibles.
+    "editorBracketMatch.background": "#8EA4BF22", // Fondo del paréntesis o corchete coincidente.
+    "editorBracketMatch.border": "#8EA4BF", // Borde del bracket coincidente.
+    "editorBracketHighlight.foreground1": "#8EA4BF", // Color 1 de nesting de brackets.
+    "editorBracketHighlight.foreground2": "#B9A67A", // Color 2 de nesting de brackets.
+    "editorBracketHighlight.foreground3": "#89A994", // Color 3 de nesting de brackets.
+    "editorBracketHighlight.foreground4": "#B97883", // Color 4 de nesting de brackets.
+    "editorBracketHighlight.foreground5": "#9D8EB1", // Color 5 de nesting de brackets.
+    "editorBracketHighlight.foreground6": "#D7C9BF", // Color 6 de nesting de brackets.
+    "editorBracketHighlight.unexpectedBracket.foreground": "#CF7F88", // Bracket inesperado o sin cierre.
+    "editorGutter.background": "#1A2230", // Fondo de la zona de gutter del editor.
+    "editorError.foreground": "#CF7F88", // Marca visual de errores del editor.
+    "editorWarning.foreground": "#C6AC78", // Marca visual de advertencias del editor.
+    "editorInfo.foreground": "#8EA4BF", // Marca visual de información del editor.
+    "editorHint.foreground": "#89A994", // Marca visual de sugerencias del editor.
 
-    "sideBarTitle.foreground": "#E4D6C9", // Título del panel lateral
+    // =========================
+    // Widgets / forms / list UI
+    // =========================
+    "editorWidget.background": "#212B3A", // Fondo de cuadros flotantes del editor.
+    "editorWidget.foreground": "#D8E1EE", // Texto de cuadros flotantes del editor.
+    "editorWidget.border": "#31435C", // Borde de cuadros flotantes del editor.
+    "editorSuggestWidget.background": "#212B3A", // Fondo del popup de autocompletado.
+    "editorSuggestWidget.border": "#31435C", // Borde del popup de autocompletado.
+    "editorSuggestWidget.foreground": "#D8E1EE", // Texto del popup de autocompletado.
+    "editorSuggestWidget.highlightForeground": "#C98A95", // Texto resaltado dentro del popup de sugerencias.
+    "editorSuggestWidget.selectedBackground": "#2A374B", // Opción seleccionada del popup de sugerencias.
 
-    "sideBarSectionHeader.background": "#1E2837", // Fondo de cabeceras de grupos en la vista lateral
-    "sideBarSectionHeader.foreground": "#D8E1EE", // Texto de cabeceras de grupos laterales
-    "sideBarSectionHeader.border": "#243042", // Borde de cabeceras laterales
+    "input.background": "#212B3A", // Fondo de campos de entrada.
+    "input.foreground": "#D8E1EE", // Texto dentro de campos de entrada.
+    "input.border": "#31435C", // Borde de campos de entrada.
+    "input.placeholderForeground": "#78879A", // Texto placeholder de campos de entrada.
+    "inputOption.activeBackground": "#B9788333", // Fondo de la opción activa en formularios y configuración.
+    "inputOption.activeBorder": "#B97883", // Borde de la opción activa.
+    "inputOption.activeForeground": "#E4D6C9", // Texto de la opción activa.
 
-    "editorGroupHeader.tabsBackground": "#131A24", // Fondo de la fila de pestañas del editor
-    "editorGroupHeader.tabsBorder": "#243042", // Línea bajo la fila de pestañas
-    "editorGroup.border": "#243042", // Borde entre grupos de edición
+    "button.background": "#A96773", // Fondo del botón principal.
+    "button.foreground": "#FFFFFF", // Texto del botón principal.
+    "button.hoverBackground": "#B97883", // Fondo al pasar el mouse sobre el botón principal.
+    "button.secondaryBackground": "#2A374B", // Fondo de botones secundarios.
+    "button.secondaryForeground": "#D8E1EE", // Texto de botones secundarios.
+    "button.secondaryHoverBackground": "#34445B", // Fondo al pasar el mouse sobre botón secundario.
 
-    "tab.activeBackground": "#1A2230", // Fondo de la pestaña abierta actual
-    "tab.activeForeground": "#E4D6C9", // Texto de la pestaña activa
-    "tab.activeBorderTop": "#B97883", // Línea superior de la pestaña activa
+    "dropdown.background": "#212B3A", // Fondo de menús desplegables.
+    "dropdown.foreground": "#D8E1EE", // Texto de menús desplegables.
+    "dropdown.border": "#31435C", // Borde de menús desplegables.
 
-    "tab.inactiveBackground": "#131A24", // Fondo de pestañas inactivas
-    "tab.inactiveForeground": "#8593A7", // Texto de pestañas inactivas
+    "list.activeSelectionBackground": "#2D3D54", // Fondo del elemento seleccionado en listas de navegación.
+    "list.activeSelectionForeground": "#FFFFFF", // Texto del elemento seleccionado.
+    "list.inactiveSelectionBackground": "#263245", // Fondo de selección no activa en listas.
+    "list.inactiveSelectionForeground": "#D8E1EE", // Texto de selección inactiva.
+    "list.hoverBackground": "#223044", // Fondo al pasar el mouse sobre elementos de lista.
+    "list.hoverForeground": "#E4D6C9", // Texto al pasar el mouse sobre elementos de lista.
+    "list.highlightForeground": "#C98A95", // Texto destacado dentro de listas.
 
-    "tab.hoverBackground": "#202B3A", // Fondo cuando el cursor pasa por una pestaña
-    "tab.hoverForeground": "#D8E1EE", // Texto de pestaña al hacer hover
+    "statusBar.background": "#243247", // Fondo de la barra de estado principal.
+    "statusBar.foreground": "#D8E1EE", // Texto de la barra de estado.
+    "statusBar.noFolderBackground": "#202B3A", // Fondo de la barra de estado sin carpeta abierta.
+    "statusBar.debuggingBackground": "#584252", // Fondo de la barra de estado en modo depuración.
+    "statusBar.debuggingForeground": "#FFFFFF", // Texto de la barra de estado en depuración.
 
-    "editor.background": "#1A2230", // Fondo principal del editor
-    "editor.foreground": "#D8E1EE", // Color base del texto del editor
+    "panel.background": "#131A24", // Fondo de paneles inferiores.
+    "panel.border": "#243042", // Borde de paneles inferiores.
+    "panelTitle.activeForeground": "#E4D6C9", // Texto del título del panel activo.
+    "panelTitle.activeBorder": "#B97883", // Borde del panel activo.
+    "panelTitle.inactiveForeground": "#7C8BA0", // Texto del título del panel inactivo.
 
-    "editorLineNumber.foreground": "#5D6A7C", // Número de línea no activo
-    "editorLineNumber.activeForeground": "#AFC0D6", // Número de línea de la línea actual
+    "badge.background": "#A96773", // Fondo de badges de notificaciones pequeñas.
+    "badge.foreground": "#FFFFFF", // Texto de badges.
+    "progressBar.background": "#B97883", // Barra de progreso de tareas largas.
+    "scrollbarSlider.background": "#31435C55", // Fondo de la barra de scroll normal.
+    "scrollbarSlider.hoverBackground": "#31435C88", // Fondo de scroll al hacer hover.
+    "scrollbarSlider.activeBackground": "#51627CAA", // Fondo de scroll activo o presionado.
+    "breadcrumb.foreground": "#94A3B8", // Texto de breadcrumbs sin foco.
+    "breadcrumb.focusForeground": "#E4D6C9", // Texto del breadcrumb seleccionado.
+    "breadcrumb.activeSelectionForeground": "#C98A95", // Texto del breadcrumb activo en selección.
 
-    "editorCursor.foreground": "#E4D6C9", // Cursor del editor
+    // =========================
+    // Terminal / console
+    // =========================
+    "terminal.background": "#131A24", // Fondo del terminal integrado.
+    "terminal.foreground": "#D8E1EE", // Texto principal del terminal.
+    "terminalCursor.foreground": "#E4D6C9", // Cursor del terminal.
+    "terminal.ansiBlack": "#18202C", // Color ANSI negro del terminal.
+    "terminal.ansiRed": "#C97F87", // Color ANSI rojo del terminal.
+    "terminal.ansiGreen": "#8EB69B", // Color ANSI verde del terminal.
+    "terminal.ansiYellow": "#C6AC78", // Color ANSI amarillo del terminal.
+    "terminal.ansiBlue": "#84A2C6", // Color ANSI azul del terminal.
+    "terminal.ansiMagenta": "#A98DB5", // Color ANSI magenta del terminal.
+    "terminal.ansiCyan": "#83B3B7", // Color ANSI cyan del terminal.
+    "terminal.ansiWhite": "#D8E1EE", // Color ANSI blanco del terminal.
+    "terminal.ansiBrightBlack": "#65758A", // Color ANSI negro brillante.
+    "terminal.ansiBrightRed": "#D99AA1", // Color ANSI rojo brillante.
+    "terminal.ansiBrightGreen": "#A5C9AF", // Color ANSI verde brillante.
+    "terminal.ansiBrightYellow": "#D6C08E", // Color ANSI amarillo brillante.
+    "terminal.ansiBrightBlue": "#A0B8D5", // Color ANSI azul brillante.
+    "terminal.ansiBrightMagenta": "#BBA7C5", // Color ANSI magenta brillante.
+    "terminal.ansiBrightCyan": "#9DC6C9", // Color ANSI cyan brillante.
+    "terminal.ansiBrightWhite": "#F0F4F8", // Color ANSI blanco brillante.
 
-    "editor.selectionBackground": "#31435C99", // Fondo de selección del texto
-    "editor.inactiveSelectionBackground": "#31435C55", // Fondo de selección cuando el editor está inactivo
-
-    "editor.wordHighlightBackground": "#8EA4BF22", // Fondo de palabras coincidentes en el editor
-    "editor.wordHighlightStrongBackground": "#8EA4BF33", // Fondo de coincidencias fuertes de palabras
-
-    "editor.findMatchBackground": "#B9788355", // Fondo de la coincidencia actual en búsqueda
-    "editor.findMatchBorder": "#C98A95", // Borde de la coincidencia actual
-    "editor.findMatchHighlightBackground": "#B9788328", // Fondo de otras coincidencias en la búsqueda
-
-    "editor.lineHighlightBackground": "#202937", // Fondo de la línea actual del editor
-    "editor.lineHighlightBorder": "#00000000", // Borde de línea actual sin visible
-
-    "editorIndentGuide.background1": "#2B3749", // Guía de indentación normal
-    "editorIndentGuide.activeBackground1": "#51627C", // Guía de indentación de la línea actual
-
-    "editorWhitespace.foreground": "#334154", // Color de espacios y tabulaciones visibles
-
-    "editorBracketMatch.background": "#8EA4BF22", // Fondo del paréntesis o corchete coincidente
-    "editorBracketMatch.border": "#8EA4BF", // Borde del bracket coincidente
-
-    "editorBracketHighlight.foreground1": "#8EA4BF", // Color 1 de nesting de brackets
-    "editorBracketHighlight.foreground2": "#B9A67A", // Color 2 de nesting de brackets
-    "editorBracketHighlight.foreground3": "#89A994", // Color 3 de nesting de brackets
-    "editorBracketHighlight.foreground4": "#B97883", // Color 4 de nesting de brackets
-    "editorBracketHighlight.foreground5": "#9D8EB1", // Color 5 de nesting de brackets
-    "editorBracketHighlight.foreground6": "#D7C9BF", // Color 6 de nesting de brackets
-    "editorBracketHighlight.unexpectedBracket.foreground": "#CF7F88", // Bracket inesperado o sin cierre
-
-    "editorGutter.background": "#1A2230", // Fondo de la zona de gutter del editor
-
-    "editorError.foreground": "#CF7F88", // Marca visual de errores del editor
-    "editorWarning.foreground": "#C6AC78", // Marca visual de advertencias del editor
-    "editorInfo.foreground": "#8EA4BF", // Marca visual de información del editor
-    "editorHint.foreground": "#89A994", // Marca visual de sugerencias del editor
-
-    "editorWidget.background": "#212B3A", // Fondo de cuadros flotantes de editor
-    "editorWidget.foreground": "#D8E1EE", // Texto de cuadros flotantes del editor
-    "editorWidget.border": "#31435C", // Borde de cuadros flotantes del editor
-
-    "editorSuggestWidget.background": "#212B3A", // Fondo del popup de autocompletado
-    "editorSuggestWidget.border": "#31435C", // Borde del popup de autocompletado
-    "editorSuggestWidget.foreground": "#D8E1EE", // Texto del popup de autocompletado
-    "editorSuggestWidget.highlightForeground": "#C98A95", // Texto resaltado dentro del popup de sugerencias
-    "editorSuggestWidget.selectedBackground": "#2A374B", // Opción seleccionada del popup de sugerencias
-
-    "input.background": "#212B3A", // Fondo de campos de entrada
-    "input.foreground": "#D8E1EE", // Texto dentro de campos de entrada
-    "input.border": "#31435C", // Borde de campos de entrada
-    "input.placeholderForeground": "#78879A", // Texto placeholder de campos de entrada
-
-    "inputOption.activeBackground": "#B9788333", // Fondo de la opción activa en configuración y formularios
-    "inputOption.activeBorder": "#B97883", // Borde de la opción activa
-    "inputOption.activeForeground": "#E4D6C9", // Texto de la opción activa
-
-    "button.background": "#A96773", // Fondo del botón principal
-    "button.foreground": "#FFFFFF", // Texto del botón principal
-    "button.hoverBackground": "#B97883", // Fondo al pasar el mouse sobre botón principal
-
-    "button.secondaryBackground": "#2A374B", // Fondo de botones secundarios
-    "button.secondaryForeground": "#D8E1EE", // Texto de botones secundarios
-    "button.secondaryHoverBackground": "#34445B", // Fondo al pasar el mouse sobre botón secundario
-
-    "dropdown.background": "#212B3A", // Fondo de menús desplegables
-    "dropdown.foreground": "#D8E1EE", // Texto de menús desplegables
-    "dropdown.border": "#31435C", // Borde de menús desplegables
-
-    "list.activeSelectionBackground": "#2D3D54", // Fondo del elemento seleccionado en listas de navegación
-    "list.activeSelectionForeground": "#FFFFFF", // Texto del elemento seleccionado
-
-    "list.inactiveSelectionBackground": "#263245", // Fondo de selección no activa en listas
-    "list.inactiveSelectionForeground": "#D8E1EE", // Texto de selección inactiva
-
-    "list.hoverBackground": "#223044", // Fondo al pasar el mouse sobre elementos de lista
-    "list.hoverForeground": "#E4D6C9", // Texto al pasar el mouse sobre elementos de lista
-
-    "list.highlightForeground": "#C98A95", // Texto destacado dentro de listas
-
-    "statusBar.background": "#243247", // Fondo de la barra de estado principal
-    "statusBar.foreground": "#D8E1EE", // Texto de la barra de estado
-
-    "statusBar.noFolderBackground": "#202B3A", // Fondo de la barra de estado sin carpeta abierta
-    "statusBar.debuggingBackground": "#584252", // Fondo de la barra de estado en modo depuración
-    "statusBar.debuggingForeground": "#FFFFFF", // Texto de la barra de estado en depuración
-
-    "panel.background": "#131A24", // Fondo de paneles inferiores
-    "panel.border": "#243042", // Borde de paneles inferiores
-
-    "panelTitle.activeForeground": "#E4D6C9", // Texto del título del panel activo
-    "panelTitle.activeBorder": "#B97883", // Borde del panel activo
-    "panelTitle.inactiveForeground": "#7C8BA0", // Texto del título del panel inactivo
-
-    "terminal.background": "#131A24", // Fondo del terminal integrado
-    "terminal.foreground": "#D8E1EE", // Texto principal del terminal
-
-    "terminalCursor.foreground": "#E4D6C9", // Cursor del terminal
-
-    "terminal.ansiBlack": "#18202C", // Color ANSI negro del terminal
-    "terminal.ansiRed": "#C97F87", // Color ANSI rojo del terminal
-    "terminal.ansiGreen": "#8EB69B", // Color ANSI verde del terminal
-    "terminal.ansiYellow": "#C6AC78", // Color ANSI amarillo del terminal
-    "terminal.ansiBlue": "#84A2C6", // Color ANSI azul del terminal
-    "terminal.ansiMagenta": "#A98DB5", // Color ANSI magenta del terminal
-    "terminal.ansiCyan": "#83B3B7", // Color ANSI cyan del terminal
-    "terminal.ansiWhite": "#D8E1EE", // Color ANSI blanco del terminal
-
-    "terminal.ansiBrightBlack": "#65758A", // Color ANSI negro brillante
-    "terminal.ansiBrightRed": "#D99AA1", // Color ANSI rojo brillante
-    "terminal.ansiBrightGreen": "#A5C9AF", // Color ANSI verde brillante
-    "terminal.ansiBrightYellow": "#D6C08E", // Color ANSI amarillo brillante
-    "terminal.ansiBrightBlue": "#A0B8D5", // Color ANSI azul brillante
-    "terminal.ansiBrightMagenta": "#BBA7C5", // Color ANSI magenta brillante
-    "terminal.ansiBrightCyan": "#9DC6C9", // Color ANSI cyan brillante
-    "terminal.ansiBrightWhite": "#F0F4F8", // Color ANSI blanco brillante
-
-    "badge.background": "#A96773", // Fondo de badges de notificaciones pequeñas
-    "badge.foreground": "#FFFFFF", // Texto de badges
-
-    "progressBar.background": "#B97883", // Barra de progreso de tareas largas
-
-    "scrollbarSlider.background": "#31435C55", // Fondo de la barra de scroll normal
-    "scrollbarSlider.hoverBackground": "#31435C88", // Fondo de scroll al hacer hover
-    "scrollbarSlider.activeBackground": "#51627CAA", // Fondo de scroll activo o presionado
-
-    "breadcrumb.foreground": "#94A3B8", // Texto de breadcrumbs sin foco
-    "breadcrumb.focusForeground": "#E4D6C9", // Texto del breadcrumb seleccionado
-    "breadcrumb.activeSelectionForeground": "#C98A95", // Texto del breadcrumb activo en selección
-
-    "gitDecoration.addedResourceForeground": "#8EB69B", // Icono de archivo añadido en Git
-    "gitDecoration.modifiedResourceForeground": "#C6AC78", // Icono de archivo modificado en Git
-    "gitDecoration.deletedResourceForeground": "#CF7F88", // Icono de archivo eliminado en Git
-    "gitDecoration.untrackedResourceForeground": "#8EB69B", // Icono de archivo nuevo sin seguimiento
-    "gitDecoration.ignoredResourceForeground": "#6F7D90", // Icono de archivo ignorado en Git
-    "gitDecoration.conflictingResourceForeground": "#A98DB5" // Icono de conflicto de merge en Git
+    // =========================
+    // Git / SCM decorations
+    // =========================
+    "gitDecoration.addedResourceForeground": "#8EB69B", // Icono de archivo añadido en Git.
+    "gitDecoration.modifiedResourceForeground": "#C6AC78", // Icono de archivo modificado en Git.
+    "gitDecoration.deletedResourceForeground": "#CF7F88", // Icono de archivo eliminado en Git.
+    "gitDecoration.untrackedResourceForeground": "#8EB69B", // Icono de archivo nuevo sin seguimiento.
+    "gitDecoration.ignoredResourceForeground": "#6F7D90", // Icono de archivo ignorado en Git.
+    "gitDecoration.conflictingResourceForeground": "#A98DB5" // Icono de conflicto de merge en Git.
   },
 
   "tokenColors": [
