@@ -5,202 +5,202 @@
   "semanticHighlighting": true,
 
   "colors": {
-    "focusBorder": "#B97883",
+    "focusBorder": "#B97883", // Borde visible del foco cuando el usuario navega por la UI
 
-    "foreground": "#D8E1EE",
-    "descriptionForeground": "#97A6BA",
-    "disabledForeground": "#6F7D90",
-    "errorForeground": "#CF7F88",
+    "foreground": "#D8E1EE", // Texto principal de UI y editor
+    "descriptionForeground": "#97A6BA", // Texto secundario de descripciones y ayudas
+    "disabledForeground": "#6F7D90", // Texto deshabilitado y no interactivo
+    "errorForeground": "#CF7F88", // Color de mensajes de error y texto crítico
 
-    "icon.foreground": "#AEBAC9",
+    "icon.foreground": "#AEBAC9", // Color base de iconos de la interfaz
 
-    "selection.background": "#31435C88",
+    "selection.background": "#31435C88", // Fondo de texto seleccionado en editor y listas
 
-    "window.activeBorder": "#2E3B4F",
-    "window.inactiveBorder": "#243042",
+    "window.activeBorder": "#2E3B4F", // Borde de la ventana activa
+    "window.inactiveBorder": "#243042", // Borde de la ventana inactiva
 
-    "titleBar.activeBackground": "#131A24",
-    "titleBar.activeForeground": "#D8E1EE",
-    "titleBar.inactiveBackground": "#131A24",
-    "titleBar.inactiveForeground": "#7F8CA0",
-    "titleBar.border": "#243042",
+    "titleBar.activeBackground": "#131A24", // Fondo de la barra de título del editor activo
+    "titleBar.activeForeground": "#D8E1EE", // Texto de la barra de título activa
+    "titleBar.inactiveBackground": "#131A24", // Fondo de la barra de título inactiva
+    "titleBar.inactiveForeground": "#7F8CA0", // Texto de la barra de título inactiva
+    "titleBar.border": "#243042", // Línea divisoria de la barra de título
 
-    "activityBar.background": "#131A24",
-    "activityBar.foreground": "#D8E1EE",
-    "activityBar.inactiveForeground": "#728197",
-    "activityBar.border": "#243042",
-    "activityBar.activeBorder": "#B97883",
-    "activityBar.activeBackground": "#1B2432",
+    "activityBar.background": "#131A24", // Fondo de la barra lateral de actividades
+    "activityBar.foreground": "#D8E1EE", // Iconos activos de la barra lateral
+    "activityBar.inactiveForeground": "#728197", // Iconos inactivos de la barra lateral
+    "activityBar.border": "#243042", // Borde de la barra lateral
+    "activityBar.activeBorder": "#B97883", // Borde del icono de actividad activo
+    "activityBar.activeBackground": "#1B2432", // Fondo del icono de actividad seleccionado
 
-    "activityBarBadge.background": "#B97883",
-    "activityBarBadge.foreground": "#FFFFFF",
+    "activityBarBadge.background": "#B97883", // Fondo del badge del icono activo
+    "activityBarBadge.foreground": "#FFFFFF", // Texto del badge activo
 
-    "sideBar.background": "#161E2A",
-    "sideBar.foreground": "#C5D0DF",
-    "sideBar.border": "#243042",
+    "sideBar.background": "#161E2A", // Fondo del explorador de archivos y vistas laterales
+    "sideBar.foreground": "#C5D0DF", // Texto principal de la vista lateral
+    "sideBar.border": "#243042", // Borde de la vista lateral
 
-    "sideBarTitle.foreground": "#E4D6C9",
+    "sideBarTitle.foreground": "#E4D6C9", // Título del panel lateral
 
-    "sideBarSectionHeader.background": "#1E2837",
-    "sideBarSectionHeader.foreground": "#D8E1EE",
-    "sideBarSectionHeader.border": "#243042",
+    "sideBarSectionHeader.background": "#1E2837", // Fondo de cabeceras de grupos en la vista lateral
+    "sideBarSectionHeader.foreground": "#D8E1EE", // Texto de cabeceras de grupos laterales
+    "sideBarSectionHeader.border": "#243042", // Borde de cabeceras laterales
 
-    "editorGroupHeader.tabsBackground": "#131A24",
-    "editorGroupHeader.tabsBorder": "#243042",
-    "editorGroup.border": "#243042",
+    "editorGroupHeader.tabsBackground": "#131A24", // Fondo de la fila de pestañas del editor
+    "editorGroupHeader.tabsBorder": "#243042", // Línea bajo la fila de pestañas
+    "editorGroup.border": "#243042", // Borde entre grupos de edición
 
-    "tab.activeBackground": "#1A2230",
-    "tab.activeForeground": "#E4D6C9",
-    "tab.activeBorderTop": "#B97883",
+    "tab.activeBackground": "#1A2230", // Fondo de la pestaña abierta actual
+    "tab.activeForeground": "#E4D6C9", // Texto de la pestaña activa
+    "tab.activeBorderTop": "#B97883", // Línea superior de la pestaña activa
 
-    "tab.inactiveBackground": "#131A24",
-    "tab.inactiveForeground": "#8593A7",
+    "tab.inactiveBackground": "#131A24", // Fondo de pestañas inactivas
+    "tab.inactiveForeground": "#8593A7", // Texto de pestañas inactivas
 
-    "tab.hoverBackground": "#202B3A",
-    "tab.hoverForeground": "#D8E1EE",
+    "tab.hoverBackground": "#202B3A", // Fondo cuando el cursor pasa por una pestaña
+    "tab.hoverForeground": "#D8E1EE", // Texto de pestaña al hacer hover
 
-    "editor.background": "#1A2230",
-    "editor.foreground": "#D8E1EE",
+    "editor.background": "#1A2230", // Fondo principal del editor
+    "editor.foreground": "#D8E1EE", // Color base del texto del editor
 
-    "editorLineNumber.foreground": "#5D6A7C",
-    "editorLineNumber.activeForeground": "#AFC0D6",
+    "editorLineNumber.foreground": "#5D6A7C", // Número de línea no activo
+    "editorLineNumber.activeForeground": "#AFC0D6", // Número de línea de la línea actual
 
-    "editorCursor.foreground": "#E4D6C9",
+    "editorCursor.foreground": "#E4D6C9", // Cursor del editor
 
-    "editor.selectionBackground": "#31435C99",
-    "editor.inactiveSelectionBackground": "#31435C55",
+    "editor.selectionBackground": "#31435C99", // Fondo de selección del texto
+    "editor.inactiveSelectionBackground": "#31435C55", // Fondo de selección cuando el editor está inactivo
 
-    "editor.wordHighlightBackground": "#8EA4BF22",
-    "editor.wordHighlightStrongBackground": "#8EA4BF33",
+    "editor.wordHighlightBackground": "#8EA4BF22", // Fondo de palabras coincidentes en el editor
+    "editor.wordHighlightStrongBackground": "#8EA4BF33", // Fondo de coincidencias fuertes de palabras
 
-    "editor.findMatchBackground": "#B9788355",
-    "editor.findMatchBorder": "#C98A95",
-    "editor.findMatchHighlightBackground": "#B9788328",
+    "editor.findMatchBackground": "#B9788355", // Fondo de la coincidencia actual en búsqueda
+    "editor.findMatchBorder": "#C98A95", // Borde de la coincidencia actual
+    "editor.findMatchHighlightBackground": "#B9788328", // Fondo de otras coincidencias en la búsqueda
 
-    "editor.lineHighlightBackground": "#202937",
-    "editor.lineHighlightBorder": "#00000000",
+    "editor.lineHighlightBackground": "#202937", // Fondo de la línea actual del editor
+    "editor.lineHighlightBorder": "#00000000", // Borde de línea actual sin visible
 
-    "editorIndentGuide.background1": "#2B3749",
-    "editorIndentGuide.activeBackground1": "#51627C",
+    "editorIndentGuide.background1": "#2B3749", // Guía de indentación normal
+    "editorIndentGuide.activeBackground1": "#51627C", // Guía de indentación de la línea actual
 
-    "editorWhitespace.foreground": "#334154",
+    "editorWhitespace.foreground": "#334154", // Color de espacios y tabulaciones visibles
 
-    "editorBracketMatch.background": "#8EA4BF22",
-    "editorBracketMatch.border": "#8EA4BF",
+    "editorBracketMatch.background": "#8EA4BF22", // Fondo del paréntesis o corchete coincidente
+    "editorBracketMatch.border": "#8EA4BF", // Borde del bracket coincidente
 
-    "editorBracketHighlight.foreground1": "#8EA4BF",
-    "editorBracketHighlight.foreground2": "#B9A67A",
-    "editorBracketHighlight.foreground3": "#89A994",
-    "editorBracketHighlight.foreground4": "#B97883",
-    "editorBracketHighlight.foreground5": "#9D8EB1",
-    "editorBracketHighlight.foreground6": "#D7C9BF",
-    "editorBracketHighlight.unexpectedBracket.foreground": "#CF7F88",
+    "editorBracketHighlight.foreground1": "#8EA4BF", // Color 1 de nesting de brackets
+    "editorBracketHighlight.foreground2": "#B9A67A", // Color 2 de nesting de brackets
+    "editorBracketHighlight.foreground3": "#89A994", // Color 3 de nesting de brackets
+    "editorBracketHighlight.foreground4": "#B97883", // Color 4 de nesting de brackets
+    "editorBracketHighlight.foreground5": "#9D8EB1", // Color 5 de nesting de brackets
+    "editorBracketHighlight.foreground6": "#D7C9BF", // Color 6 de nesting de brackets
+    "editorBracketHighlight.unexpectedBracket.foreground": "#CF7F88", // Bracket inesperado o sin cierre
 
-    "editorGutter.background": "#1A2230",
+    "editorGutter.background": "#1A2230", // Fondo de la zona de gutter del editor
 
-    "editorError.foreground": "#CF7F88",
-    "editorWarning.foreground": "#C6AC78",
-    "editorInfo.foreground": "#8EA4BF",
-    "editorHint.foreground": "#89A994",
+    "editorError.foreground": "#CF7F88", // Marca visual de errores del editor
+    "editorWarning.foreground": "#C6AC78", // Marca visual de advertencias del editor
+    "editorInfo.foreground": "#8EA4BF", // Marca visual de información del editor
+    "editorHint.foreground": "#89A994", // Marca visual de sugerencias del editor
 
-    "editorWidget.background": "#212B3A",
-    "editorWidget.foreground": "#D8E1EE",
-    "editorWidget.border": "#31435C",
+    "editorWidget.background": "#212B3A", // Fondo de cuadros flotantes de editor
+    "editorWidget.foreground": "#D8E1EE", // Texto de cuadros flotantes del editor
+    "editorWidget.border": "#31435C", // Borde de cuadros flotantes del editor
 
-    "editorSuggestWidget.background": "#212B3A",
-    "editorSuggestWidget.border": "#31435C",
-    "editorSuggestWidget.foreground": "#D8E1EE",
-    "editorSuggestWidget.highlightForeground": "#C98A95",
-    "editorSuggestWidget.selectedBackground": "#2A374B",
+    "editorSuggestWidget.background": "#212B3A", // Fondo del popup de autocompletado
+    "editorSuggestWidget.border": "#31435C", // Borde del popup de autocompletado
+    "editorSuggestWidget.foreground": "#D8E1EE", // Texto del popup de autocompletado
+    "editorSuggestWidget.highlightForeground": "#C98A95", // Texto resaltado dentro del popup de sugerencias
+    "editorSuggestWidget.selectedBackground": "#2A374B", // Opción seleccionada del popup de sugerencias
 
-    "input.background": "#212B3A",
-    "input.foreground": "#D8E1EE",
-    "input.border": "#31435C",
-    "input.placeholderForeground": "#78879A",
+    "input.background": "#212B3A", // Fondo de campos de entrada
+    "input.foreground": "#D8E1EE", // Texto dentro de campos de entrada
+    "input.border": "#31435C", // Borde de campos de entrada
+    "input.placeholderForeground": "#78879A", // Texto placeholder de campos de entrada
 
-    "inputOption.activeBackground": "#B9788333",
-    "inputOption.activeBorder": "#B97883",
-    "inputOption.activeForeground": "#E4D6C9",
+    "inputOption.activeBackground": "#B9788333", // Fondo de la opción activa en configuración y formularios
+    "inputOption.activeBorder": "#B97883", // Borde de la opción activa
+    "inputOption.activeForeground": "#E4D6C9", // Texto de la opción activa
 
-    "button.background": "#A96773",
-    "button.foreground": "#FFFFFF",
-    "button.hoverBackground": "#B97883",
+    "button.background": "#A96773", // Fondo del botón principal
+    "button.foreground": "#FFFFFF", // Texto del botón principal
+    "button.hoverBackground": "#B97883", // Fondo al pasar el mouse sobre botón principal
 
-    "button.secondaryBackground": "#2A374B",
-    "button.secondaryForeground": "#D8E1EE",
-    "button.secondaryHoverBackground": "#34445B",
+    "button.secondaryBackground": "#2A374B", // Fondo de botones secundarios
+    "button.secondaryForeground": "#D8E1EE", // Texto de botones secundarios
+    "button.secondaryHoverBackground": "#34445B", // Fondo al pasar el mouse sobre botón secundario
 
-    "dropdown.background": "#212B3A",
-    "dropdown.foreground": "#D8E1EE",
-    "dropdown.border": "#31435C",
+    "dropdown.background": "#212B3A", // Fondo de menús desplegables
+    "dropdown.foreground": "#D8E1EE", // Texto de menús desplegables
+    "dropdown.border": "#31435C", // Borde de menús desplegables
 
-    "list.activeSelectionBackground": "#2D3D54",
-    "list.activeSelectionForeground": "#FFFFFF",
+    "list.activeSelectionBackground": "#2D3D54", // Fondo del elemento seleccionado en listas de navegación
+    "list.activeSelectionForeground": "#FFFFFF", // Texto del elemento seleccionado
 
-    "list.inactiveSelectionBackground": "#263245",
-    "list.inactiveSelectionForeground": "#D8E1EE",
+    "list.inactiveSelectionBackground": "#263245", // Fondo de selección no activa en listas
+    "list.inactiveSelectionForeground": "#D8E1EE", // Texto de selección inactiva
 
-    "list.hoverBackground": "#223044",
-    "list.hoverForeground": "#E4D6C9",
+    "list.hoverBackground": "#223044", // Fondo al pasar el mouse sobre elementos de lista
+    "list.hoverForeground": "#E4D6C9", // Texto al pasar el mouse sobre elementos de lista
 
-    "list.highlightForeground": "#C98A95",
+    "list.highlightForeground": "#C98A95", // Texto destacado dentro de listas
 
-    "statusBar.background": "#243247",
-    "statusBar.foreground": "#D8E1EE",
+    "statusBar.background": "#243247", // Fondo de la barra de estado principal
+    "statusBar.foreground": "#D8E1EE", // Texto de la barra de estado
 
-    "statusBar.noFolderBackground": "#202B3A",
-    "statusBar.debuggingBackground": "#584252",
-    "statusBar.debuggingForeground": "#FFFFFF",
+    "statusBar.noFolderBackground": "#202B3A", // Fondo de la barra de estado sin carpeta abierta
+    "statusBar.debuggingBackground": "#584252", // Fondo de la barra de estado en modo depuración
+    "statusBar.debuggingForeground": "#FFFFFF", // Texto de la barra de estado en depuración
 
-    "panel.background": "#131A24",
-    "panel.border": "#243042",
+    "panel.background": "#131A24", // Fondo de paneles inferiores
+    "panel.border": "#243042", // Borde de paneles inferiores
 
-    "panelTitle.activeForeground": "#E4D6C9",
-    "panelTitle.activeBorder": "#B97883",
-    "panelTitle.inactiveForeground": "#7C8BA0",
+    "panelTitle.activeForeground": "#E4D6C9", // Texto del título del panel activo
+    "panelTitle.activeBorder": "#B97883", // Borde del panel activo
+    "panelTitle.inactiveForeground": "#7C8BA0", // Texto del título del panel inactivo
 
-    "terminal.background": "#131A24",
-    "terminal.foreground": "#D8E1EE",
+    "terminal.background": "#131A24", // Fondo del terminal integrado
+    "terminal.foreground": "#D8E1EE", // Texto principal del terminal
 
-    "terminalCursor.foreground": "#E4D6C9",
+    "terminalCursor.foreground": "#E4D6C9", // Cursor del terminal
 
-    "terminal.ansiBlack": "#18202C",
-    "terminal.ansiRed": "#C97F87",
-    "terminal.ansiGreen": "#8EB69B",
-    "terminal.ansiYellow": "#C6AC78",
-    "terminal.ansiBlue": "#84A2C6",
-    "terminal.ansiMagenta": "#A98DB5",
-    "terminal.ansiCyan": "#83B3B7",
-    "terminal.ansiWhite": "#D8E1EE",
+    "terminal.ansiBlack": "#18202C", // Color ANSI negro del terminal
+    "terminal.ansiRed": "#C97F87", // Color ANSI rojo del terminal
+    "terminal.ansiGreen": "#8EB69B", // Color ANSI verde del terminal
+    "terminal.ansiYellow": "#C6AC78", // Color ANSI amarillo del terminal
+    "terminal.ansiBlue": "#84A2C6", // Color ANSI azul del terminal
+    "terminal.ansiMagenta": "#A98DB5", // Color ANSI magenta del terminal
+    "terminal.ansiCyan": "#83B3B7", // Color ANSI cyan del terminal
+    "terminal.ansiWhite": "#D8E1EE", // Color ANSI blanco del terminal
 
-    "terminal.ansiBrightBlack": "#65758A",
-    "terminal.ansiBrightRed": "#D99AA1",
-    "terminal.ansiBrightGreen": "#A5C9AF",
-    "terminal.ansiBrightYellow": "#D6C08E",
-    "terminal.ansiBrightBlue": "#A0B8D5",
-    "terminal.ansiBrightMagenta": "#BBA7C5",
-    "terminal.ansiBrightCyan": "#9DC6C9",
-    "terminal.ansiBrightWhite": "#F0F4F8",
+    "terminal.ansiBrightBlack": "#65758A", // Color ANSI negro brillante
+    "terminal.ansiBrightRed": "#D99AA1", // Color ANSI rojo brillante
+    "terminal.ansiBrightGreen": "#A5C9AF", // Color ANSI verde brillante
+    "terminal.ansiBrightYellow": "#D6C08E", // Color ANSI amarillo brillante
+    "terminal.ansiBrightBlue": "#A0B8D5", // Color ANSI azul brillante
+    "terminal.ansiBrightMagenta": "#BBA7C5", // Color ANSI magenta brillante
+    "terminal.ansiBrightCyan": "#9DC6C9", // Color ANSI cyan brillante
+    "terminal.ansiBrightWhite": "#F0F4F8", // Color ANSI blanco brillante
 
-    "badge.background": "#A96773",
-    "badge.foreground": "#FFFFFF",
+    "badge.background": "#A96773", // Fondo de badges de notificaciones pequeñas
+    "badge.foreground": "#FFFFFF", // Texto de badges
 
-    "progressBar.background": "#B97883",
+    "progressBar.background": "#B97883", // Barra de progreso de tareas largas
 
-    "scrollbarSlider.background": "#31435C55",
-    "scrollbarSlider.hoverBackground": "#31435C88",
-    "scrollbarSlider.activeBackground": "#51627CAA",
+    "scrollbarSlider.background": "#31435C55", // Fondo de la barra de scroll normal
+    "scrollbarSlider.hoverBackground": "#31435C88", // Fondo de scroll al hacer hover
+    "scrollbarSlider.activeBackground": "#51627CAA", // Fondo de scroll activo o presionado
 
-    "breadcrumb.foreground": "#94A3B8",
-    "breadcrumb.focusForeground": "#E4D6C9",
-    "breadcrumb.activeSelectionForeground": "#C98A95",
+    "breadcrumb.foreground": "#94A3B8", // Texto de breadcrumbs sin foco
+    "breadcrumb.focusForeground": "#E4D6C9", // Texto del breadcrumb seleccionado
+    "breadcrumb.activeSelectionForeground": "#C98A95", // Texto del breadcrumb activo en selección
 
-    "gitDecoration.addedResourceForeground": "#8EB69B",
-    "gitDecoration.modifiedResourceForeground": "#C6AC78",
-    "gitDecoration.deletedResourceForeground": "#CF7F88",
-    "gitDecoration.untrackedResourceForeground": "#8EB69B",
-    "gitDecoration.ignoredResourceForeground": "#6F7D90",
-    "gitDecoration.conflictingResourceForeground": "#A98DB5"
+    "gitDecoration.addedResourceForeground": "#8EB69B", // Icono de archivo añadido en Git
+    "gitDecoration.modifiedResourceForeground": "#C6AC78", // Icono de archivo modificado en Git
+    "gitDecoration.deletedResourceForeground": "#CF7F88", // Icono de archivo eliminado en Git
+    "gitDecoration.untrackedResourceForeground": "#8EB69B", // Icono de archivo nuevo sin seguimiento
+    "gitDecoration.ignoredResourceForeground": "#6F7D90", // Icono de archivo ignorado en Git
+    "gitDecoration.conflictingResourceForeground": "#A98DB5" // Icono de conflicto de merge en Git
   },
 
   "tokenColors": [
@@ -211,7 +211,7 @@
         "punctuation.definition.comment"
       ],
       "settings": {
-        "foreground": "#718197",
+        "foreground": "#718197", // Comentarios de código y documentación breve
         "fontStyle": "italic"
       }
     },
@@ -223,7 +223,7 @@
         "string.quoted"
       ],
       "settings": {
-        "foreground": "#E4D6C9"
+        "foreground": "#E4D6C9" // Cadenas de texto y literales de strings
       }
     },
 
@@ -233,7 +233,7 @@
         "constant.numeric"
       ],
       "settings": {
-        "foreground": "#C8AE7C"
+        "foreground": "#C8AE7C" // Números y valores numéricos
       }
     },
 
@@ -244,7 +244,7 @@
         "constant.character"
       ],
       "settings": {
-        "foreground": "#D6A6AE"
+        "foreground": "#D6A6AE" // Constantes del lenguaje y valores booleanos
       }
     },
 
@@ -255,7 +255,7 @@
         "variable.other.constant"
       ],
       "settings": {
-        "foreground": "#C8AE7C"
+        "foreground": "#C8AE7C" // Constantes de valor fijo
       }
     },
 
@@ -267,7 +267,7 @@
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "#C98A95"
+        "foreground": "#C98A95" // Palabras clave, tipos y modificadores
       }
     },
 
@@ -277,7 +277,7 @@
         "keyword.operator"
       ],
       "settings": {
-        "foreground": "#8697AA"
+        "foreground": "#8697AA" // Operadores y símbolos de expresión
       }
     },
 
@@ -288,7 +288,7 @@
         "meta.function-call"
       ],
       "settings": {
-        "foreground": "#B7C8DD"
+        "foreground": "#B7C8DD" // Funciones definidas por el usuario
       }
     },
 
@@ -298,7 +298,7 @@
         "support.function"
       ],
       "settings": {
-        "foreground": "#93A8C2"
+        "foreground": "#93A8C2" // Funciones de librería estándar
       }
     },
 
@@ -309,7 +309,7 @@
         "entity.name.class"
       ],
       "settings": {
-        "foreground": "#C4B58B"
+        "foreground": "#C4B58B" // Clases y tipos definidos por el usuario
       }
     },
 
@@ -320,7 +320,7 @@
         "support.class"
       ],
       "settings": {
-        "foreground": "#A7B9CD"
+        "foreground": "#A7B9CD" // Tipos de librería estándar
       }
     },
 
@@ -331,7 +331,7 @@
         "variable.other"
       ],
       "settings": {
-        "foreground": "#D5DEE9"
+        "foreground": "#D5DEE9" // Variables generales
       }
     },
 
@@ -342,7 +342,7 @@
         "support.constant"
       ],
       "settings": {
-        "foreground": "#93A8C2"
+        "foreground": "#93A8C2" // Variables y constantes de librería
       }
     },
 
@@ -352,7 +352,7 @@
         "variable.parameter"
       ],
       "settings": {
-        "foreground": "#BECBDD"
+        "foreground": "#BECBDD" // Parámetros de funciones y métodos
       }
     },
 
@@ -364,7 +364,7 @@
         "support.variable.property"
       ],
       "settings": {
-        "foreground": "#AFC0D6"
+        "foreground": "#AFC0D6" // Propiedades y claves de objetos
       }
     },
 
@@ -375,7 +375,7 @@
         "support.namespace"
       ],
       "settings": {
-        "foreground": "#9FB4CC"
+        "foreground": "#9FB4CC" // Namespaces y espacios de nombres
       }
     },
 
@@ -388,7 +388,7 @@
         "entity.name.function.preprocessor"
       ],
       "settings": {
-        "foreground": "#B98C9E"
+        "foreground": "#B98C9E" // Directivas y preprocesadores
       }
     },
 
@@ -398,7 +398,7 @@
         "entity.name.tag"
       ],
       "settings": {
-        "foreground": "#C98A95"
+        "foreground": "#C98A95" // Etiquetas HTML/JSX/XML
       }
     },
 
@@ -408,7 +408,7 @@
         "entity.other.attribute-name"
       ],
       "settings": {
-        "foreground": "#C8AE7C"
+        "foreground": "#C8AE7C" // Atributos y metadata
       }
     },
 
@@ -418,7 +418,7 @@
         "string.regexp"
       ],
       "settings": {
-        "foreground": "#93B7A2"
+        "foreground": "#93B7A2" // Expresiones regulares
       }
     },
 
@@ -429,82 +429,82 @@
         "invalid.illegal"
       ],
       "settings": {
-        "foreground": "#CF7F88",
+        "foreground": "#CF7F88", // Código inválido o error de sintaxis
         "fontStyle": "underline"
       }
     }
   ],
 
   "semanticTokenColors": {
-    "namespace": "#9FB4CC",
+    "namespace": "#9FB4CC", // Namespace
 
-    "type": "#C4B58B",
-    "class": "#C4B58B",
-    "struct": "#C4B58B",
-    "interface": "#C4B58B",
-    "enum": "#C4B58B",
-    "typeParameter": "#B9BCA4",
+    "type": "#C4B58B", // Tipos
+    "class": "#C4B58B", // Clases
+    "struct": "#C4B58B", // Structs
+    "interface": "#C4B58B", // Interfaces
+    "enum": "#C4B58B", // Enums
+    "typeParameter": "#B9BCA4", // Parámetros de tipo
 
-    "parameter": "#BECBDD",
+    "parameter": "#BECBDD", // Parámetros
 
-    "variable": "#D5DEE9",
-    "property": "#AFC0D6",
+    "variable": "#D5DEE9", // Variables
+    "property": "#AFC0D6", // Propiedades
 
-    "enumMember": "#C8AE7C",
+    "enumMember": "#C8AE7C", // Miembros de enum
 
-    "decorator": "#A898B8",
-    "event": "#A5B8CF",
+    "decorator": "#A898B8", // Decoradores
+    "event": "#A5B8CF", // Eventos
 
-    "function": "#B7C8DD",
-    "method": "#B7C8DD",
+    "function": "#B7C8DD", // Funciones
+    "method": "#B7C8DD", // Métodos
 
-    "macro": "#B98C9E",
-    "label": "#91A4BA",
+    "macro": "#B98C9E", // Macros
+    "label": "#91A4BA", // Labels
 
     "comment": {
-      "foreground": "#718197",
+      "foreground": "#718197", // Comentarios
       "italic": true
     },
 
     "comment.documentation": {
-      "foreground": "#7E8EA3",
+      "foreground": "#7E8EA3", // Comentarios de documentación
       "italic": true
     },
 
-    "string": "#E4D6C9",
+    "string": "#E4D6C9", // Strings
 
-    "keyword": "#C98A95",
+    "keyword": "#C98A95", // Keywords
 
-    "number": "#C8AE7C",
+    "number": "#C8AE7C", // Números
 
-    "regexp": "#93B7A2",
+    "regexp": "#93B7A2", // Expresiones regulares
 
-    "operator": "#8697AA",
+    "operator": "#8697AA", // Operadores
 
-    "*.defaultLibrary": "#93A8C2",
+    "*.defaultLibrary": "#93A8C2", // Librería por defecto
 
-    "variable.defaultLibrary": "#93A8C2",
+    "variable.defaultLibrary": "#93A8C2", // Variables de librería
 
-    "variable.readonly.defaultLibrary": "#9CAEC3",
+    "variable.readonly.defaultLibrary": "#9CAEC3", // Variables readonly de librería
 
-    "property.defaultLibrary": "#93A8C2",
+    "property.defaultLibrary": "#93A8C2", // Propiedades de librería
 
-    "property.readonly.defaultLibrary": "#9CAEC3",
+    "property.readonly.defaultLibrary": "#9CAEC3", // Propiedades readonly de librería
 
-    "function.defaultLibrary": "#93A8C2",
+    "function.defaultLibrary": "#93A8C2", // Funciones de librería
 
-    "method.defaultLibrary": "#93A8C2",
+    "method.defaultLibrary": "#93A8C2", // Métodos de librería
 
-    "type.defaultLibrary": "#A7B9CD",
+    "type.defaultLibrary": "#A7B9CD", // Tipos de librería
 
-    "class.defaultLibrary": "#A7B9CD",
+    "class.defaultLibrary": "#A7B9CD", // Clases de librería
 
-    "variable.readonly": "#CCB485",
+    "variable.readonly": "#CCB485", // Variables readonly
 
-    "property.readonly": "#C7B184",
+    "property.readonly": "#C7B184", // Propiedades readonly
 
     "*.deprecated": {
-      "foreground": "#69788C"
+      "foreground": "#69788C" // Elementos obsoletos
     }
   }
 }
