@@ -63,7 +63,7 @@
     "editorLineNumber.foreground": "#5D6A7C", // Número de línea no activo.
     "editorLineNumber.activeForeground": "#AFC0D6", // Número de línea de la línea actual.
     "editorCursor.foreground": "#E4D6C9", // Cursor del editor.
-    "editor.selectionBackground": "#31435C99", // Fondo de texto seleccionado dentro del editor.
+    "editor.selectionBackground": "#9f104099", // Fondo de texto seleccionado dentro del editor.
     "editor.inactiveSelectionBackground": "#31435C55", // Fondo de selección cuando el editor está inactivo.
     "editor.wordHighlightBackground": "#8EA4BF22", // Fondo de palabras coincidentes en el editor.
     "editor.wordHighlightStrongBackground": "#8EA4BF33", // Fondo de coincidencias fuertes de palabras.
@@ -142,7 +142,7 @@
     "panelTitle.inactiveForeground": "#7C8BA0", // Texto del título del panel inactivo.
 
     "badge.background": "#A96773", // Fondo de badges de notificaciones pequeñas.
-    "badge.foreground": "#FFFFFF", // Texto de badges.
+    "badge.foreground": "#880808", // Texto de badges.
     "progressBar.background": "#B97883", // Barra de progreso de tareas largas.
     "scrollbarSlider.background": "#31435C55", // Fondo de la barra de scroll normal.
     "scrollbarSlider.hoverBackground": "#31435C88", // Fondo de scroll al hacer hover.
