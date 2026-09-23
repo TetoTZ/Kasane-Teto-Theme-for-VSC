@@ -129,7 +129,7 @@
     "list.hoverForeground": "#E4D6C9", // Texto al pasar el mouse sobre elementos de lista.
     "list.highlightForeground": "#C98A95", // Texto destacado dentro de listas.
 
-    "statusBar.background": "#243247", // Fondo de la barra de estado principal.
+    "statusBar.background": "#880808", // Fondo de la barra de estado principal.
     "statusBar.foreground": "#D8E1EE", // Texto de la barra de estado.
     "statusBar.noFolderBackground": "#202B3A", // Fondo de la barra de estado sin carpeta abierta.
     "statusBar.debuggingBackground": "#584252", // Fondo de la barra de estado en modo depuración.
